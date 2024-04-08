@@ -1,0 +1,97 @@
+
+body{
+    background: fixed;
+}
+
+div{
+    background-color: red;
+    display: inline-block;
+
+    
+}
+
+#div1{
+    background: linear-gradient(to right, orange, red);
+  /* Arka planı turuncudan kırmızıya doğru bir lineer renk geçişi olarak ayarlar */
+  padding: 20px;
+  width: auto;
+  height: auto;
+  display: flex;
+  display: inline-block;
+
+ 
+  
+}
+
+.box1,.box2,.box3{
+    background: none;
+    color: white;
+    width: auto;
+    height: auto;
+}
+
+.par1{
+    border: 2px solid white;
+    margin: 10px;
+    padding: 30px;
+    border-width: 5px;
+    
+}
+
+.par4{
+    border: 2px dotted white;
+    margin: 10px;
+    padding: 30px;
+    border-width: 5px;
+
+}
+.par7{
+    border: 2px dashed white;
+    margin: 10px;
+    padding: 30px;
+    border-width: 5px;
+}
+
+.par2{
+    border: 2px solid white;
+    margin: 10px;
+    padding: 30px;
+    border-width: 5px;
+}
+
+.par5{
+    border: 2px double white;
+    margin: 10px;
+    padding: 30px;
+    border-width: 5px;
+}
+
+.par8{
+    border: 2px groove white;
+    margin: 10px;
+    padding: 30px;
+    color: white;
+    border-width: 5px;
+    
+}
+
+.par3{
+    border: 2px ridge white;
+    margin: 10px;
+    padding: 30px;
+    border-width: 5px;
+}
+
+.par6{
+    border: 2px inset white;
+    margin: 10px;
+    padding: 30px;
+    border-width: 5px;
+}
+
+.par9{
+    border: 2px outset white;
+    margin: 10px;
+    padding: 30px;
+    border-width: 5px;
+}
